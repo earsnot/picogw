@@ -13,5 +13,4 @@ Go into /data/global_conf.json and set "gateway_conf.server_address" to the desi
 Open the docker-compose.yml file and change the ports to the desired ports.
 Run the following commands:
 
-    docker-compose build
     docker-compose up
