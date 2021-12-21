@@ -1,0 +1,13 @@
+version: '3'
+services:
+  app:
+    build: .
+    ports:
+      - "1700:1700/udp"
+    devices:
+      - /dev/ttyACM0
+    volumes:
+      - $PWD/data:/gateway/lora_pkt_fwd/data
+    network_mode: "bridge"
+volumes:
+  data:    
