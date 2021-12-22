@@ -5,6 +5,10 @@ Based on the following repositories
 - [LoRa Picocell Gateway HAL](https://github.com/Lora-net/picoGW_hal)
 - [LoRa network packet forwarder](https://github.com/Lora-net/picoGW_packet_forwarder)
 ## Getting started
+Prerequisites:
+- Docker
+- Docker Compose
+
 Run the following command:
 
     git clone https://github.dev/earsnot/picogw.git
