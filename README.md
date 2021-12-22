@@ -12,7 +12,7 @@ Prerequisites:
 
 Run the following command:
 
-    git clone https://github.dev/earsnot/picogw.git
+    git clone https://github.com/earsnot/picogw.git
 
 Go into /data/global_conf.json and set "gateway_conf.server_address" to the desired address.
 Open the docker-compose.yml file and change the ports to the desired ports.\
