@@ -4,6 +4,7 @@ This project is meant to be run on a Linux host.
 Based on the following repositories
 - [LoRa Picocell Gateway HAL](https://github.com/Lora-net/picoGW_hal)
 - [LoRa network packet forwarder](https://github.com/Lora-net/picoGW_packet_forwarder)
+- [Connectitude/lora-pico-gw-forwarder](https://github.com/Connectitude/lora-pico-gw-forwarder)
 ## Getting started
 Prerequisites:
 - Docker
