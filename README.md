@@ -19,3 +19,5 @@ Open the docker-compose.yml file and change the ports to the desired ports.\
 Run the following command:
 
     docker-compose up
+
+The gateway ID is being echoed to the terminal during initialization and should be added to ChirpStack (or whatever you use) as a gateway.
