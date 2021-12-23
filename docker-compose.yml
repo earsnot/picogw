@@ -7,7 +7,7 @@ services:
     devices:
       - /dev/ttyACM0
     volumes:
-      - $PWD/data:/gateway/lora_pkt_fwd/data
+      - data:/lora_pkt_fwd/data
     network_mode: "bridge"
 volumes:
   data:    
