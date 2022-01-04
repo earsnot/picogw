@@ -1,3 +1,4 @@
+
 version: '3'
 services:
   app:
@@ -7,7 +8,7 @@ services:
     devices:
       - /dev/ttyACM0
     volumes:
-      - /data:/lora_pkt_fwd/data
+      - /home/pi/picogw/data:/gateway/lora_pkt_fwd/data
     network_mode: "bridge"
 volumes:
   data:    
