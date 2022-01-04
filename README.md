@@ -1,9 +1,7 @@
 # LoRa Picocell Gateway and packet forwarder from Semtech for Docker Compose
 This project is meant to be run on a Linux host.
 
-Based on the following repositories
-- [LoRa Picocell Gateway HAL](https://github.com/Lora-net/picoGW_hal)
-- [LoRa network packet forwarder](https://github.com/Lora-net/picoGW_packet_forwarder)
+Based on the following repository:
 - [Connectitude/lora-pico-gw-forwarder](https://github.com/Connectitude/lora-pico-gw-forwarder)
 ## Getting started
 Prerequisites:
